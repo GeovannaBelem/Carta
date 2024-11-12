@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFDCCA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16%;
+}
+
+#cont img {
+    position: relative;
+}
+
+#cont #img1 {
+    top: -36px;
+    width: 21%;
+}
+
+#cont #img2 {
+    top: 18px;
+    width: 30%;
+}
+
+#cont h3 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: larger;
+}
+
+#quadradoCarta {
+    background-color: #368A25;
+    width: 48vh;
+    height: 40vh;
+    position: relative;
+    top: 15vh;
+}
+
+#trianguloCarta {
+    width: 0;
+    height: 0;
+    border-left: 24vh solid transparent;
+    border-right: 24vh solid transparent;
+    border-top: 19vh solid #163610;
+    position: relative;
+}
+
+#quadradoCarta p{
+    font-family: "Jim Nightshade", cursive;
+    color: white;
+    font-size: x-large;
+    margin-top: 28%;
+    margin-left: 5%;
+}
+
+#carta{
+    display: none;
+    border: 2px solid red;
+    background-color: white;
+    padding: 3% 2%;
+    position: relative;
+    top: -30vh;
+    width: 42vh;
+}
+
+#carta p{
+    font-family: "Jim Nightshade", cursive;
+    color: black;
+    margin-top: 4%;
+    margin-left: 5%;
+    font-size: larger;
+    margin-bottom: 3%;
+}
+
+#conteinerImagens{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lados{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#lacos{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 6%;
+}
+
+#lacos img{
+    width: 33%;
+}
+
+.lados #img1{
+    margin-bottom: 5%;
+}
+
+#carta img{
+    border-radius: 7px;
+}
